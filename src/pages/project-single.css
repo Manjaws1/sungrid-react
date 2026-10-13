@@ -1,0 +1,20 @@
+
+        .project-info-icon {
+            width: 42px;
+            height: 42px;
+            margin-bottom: 18px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border: 1px solid #f2d229;
+            color: #f2d229;
+
+            border-radius: 8px;
+        }
+
+        .project-info-icon i {
+            font-size: 18px;
+        }
+    
