@@ -47,8 +47,8 @@ export default function ContactPage() {
     <>
       <div id="wrapper">
         <a href="#" id="back-to-top" />
-        <div id="de-loader" />
-        
+        {/* <div id="de-loader" /> */}
+
         {/* Popup Modal for Success Message */}
         {showPopup && (
           <div style={{
@@ -75,7 +75,7 @@ export default function ContactPage() {
               <p style={{ marginBottom: '20px', color: '#333' }}>
                 Your message has been sent successfully. We will respond shortly.
               </p>
-              <button 
+              <button
                 onClick={handleReset}
                 className="btn-main"
                 style={{ border: 'none', cursor: 'pointer' }}
@@ -86,7 +86,7 @@ export default function ContactPage() {
           </div>
         )}
 
-       
+
 
         {/* content begin */}
         <div className="no-bottom no-top" id="content">
@@ -261,7 +261,7 @@ export default function ContactPage() {
           </div>
         </section>
 
-      
+
 
       </div>
     </>

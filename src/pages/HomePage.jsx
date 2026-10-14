@@ -17,7 +17,7 @@ export default function HomePage() {
       
 <a href={"#"} id={"back-to-top"}></a>
 {/* preloader begin */}
-<div id={"de-loader"}></div>
+{/* <div id={"de-loader"}></div> */}
 {/* preloader end */}
 {/* header begin */}
 

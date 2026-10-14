@@ -18,7 +18,7 @@ export default function AboutPage() {
     <>
       <a href={"#"} id={"back-to-top"}></a>
       {/* Preloader */}
-      <div id={"de-loader"}></div>
+      {/* <div id={"de-loader"}></div> */}
       {/* header begin */}
 
       {/* header end */}
