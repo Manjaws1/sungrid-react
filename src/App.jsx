@@ -36,6 +36,7 @@ function SiteLayout() {
         <Route path="/project" element={<ProjectPage />} />
         <Route path="/project-single.html" element={<ProjectPage />} />
         <Route path="/service" element={<ServicePage />} />
+        <Route path="/services" element={<ServicesPage />} />
         <Route path="/service-single.html" element={<ServicePage />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
