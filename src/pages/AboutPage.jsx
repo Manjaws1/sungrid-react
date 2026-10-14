@@ -438,7 +438,7 @@ export default function AboutPage() {
                     style={{ height: "340px" }}
                   >
                     <img
-                      src={"imagjpeg/in/chiemela-emmanueleam/p6.jpg"}
+                      src={"/images/team/p6.jpg"}
                       className={"w-100 h-100 transition-all"}
                       alt={"Ruth Amedu"}
                       style={{
