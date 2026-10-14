@@ -24,20 +24,12 @@ function SiteLayout() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/index.html" element={<HomePage />} />
 
-        <Route path="/about.html" element={<AboutPage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/services" element={<ServicesPage />} />
-        <Route path="/services.html" element={<ServicesPage />} />
-        <Route path="/products" element={<ProductsPage />} />
-        <Route path="/product.html" element={<ProductsPage />} />
+        <Route path="/product" element={<ProductsPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/contact.html" element={<ContactPage />} />
-        <Route path="/project" element={<ProjectPage />} />
-        <Route path="/project-single.html" element={<ProjectPage />} />
-        <Route path="/service" element={<ServicePage />} />
-        <Route path="/services" element={<ServicesPage />} />
-        <Route path="/service-single.html" element={<ServicePage />} />
+        <Route path="/project-single" element={<ProjectPage />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
       <Footer />
