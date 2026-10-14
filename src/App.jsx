@@ -25,10 +25,14 @@ function SiteLayout() {
       <Routes>
         <Route path="/" element={<HomePage />} />
 
+
         <Route path="/about" element={<AboutPage />} />
         <Route path="/services" element={<ServicesPage />} />
+        <Route path="/products" element={<ProductsPage />} />
         <Route path="/product" element={<ProductsPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/project" element={<ProjectPage />} />
         <Route path="/project-single" element={<ProjectPage />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
