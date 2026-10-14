@@ -12,7 +12,9 @@ import ServicePage from "./pages/ServicePage";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
-  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return null;
 }
 
@@ -34,6 +36,7 @@ function SiteLayout() {
         <Route path="/project" element={<ProjectPage />} />
         <Route path="/project-single.html" element={<ProjectPage />} />
         <Route path="/service" element={<ServicePage />} />
+        <Route path="/services" element={<ServicesPage />} />
         <Route path="/service-single.html" element={<ServicePage />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
